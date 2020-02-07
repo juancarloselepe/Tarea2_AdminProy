@@ -1,0 +1,16 @@
+#include <stdio.h>
+//CÁLCULO DEL NÚMERO DE LA SERIE DE FIBONACCI, DADA SU POSICIÓN
+int main(){
+    int i,        //Variable que controla el ciclo for 
+        n,        //Variable que almacena el número de posición solicitado
+        p1 = 0,   //Variable que almacena el primer número de la serie
+        p2 = 1,   //Variable que almacena el segundo número de la serie
+        siguiente;//Variable que almacena el nuevo número calculado
+        
+    printf("SERIE DE FIBONACCI\n\n");
+    printf("Ingrese la posicion que desea calcular\n");
+    printf(">> ");
+    scanf("%d", &n);
+    
+    return 0; 
+}
